@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-image: url(../images/elgraphicacover.png);
 }
 
 h1,
@@ -40,6 +41,35 @@ img{
   
 }
 
+#navBar {
+  display: flex;
+  flex-direction: row;
+}
+
 #navigation p {
   margin: 50px;
+  color: #E30613;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-family: futura;
+}
+
+#navBar h1 {
+  width: 25%;
+  font-size: 42px;
+  color: #E30613;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
+  font-family: futura;
+  
+}
+
+.hero-banner h2{
+  display: flex;
+  width: 100%;
+  font-family: futura;
+  font-weight: 100;
+  letter-spacing: 150px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.7);
 }
