@@ -7,8 +7,13 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-image: url(../images/elgraphicacover.png);
-  height: 1080px;
+}
+
+img {
+  opacity: 0.2;
+  position: absolute;
+  style
+  
 }
 
 h1,
@@ -17,12 +22,13 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin:0;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: futura;
   font-weight: 100;
+  color: #E30613;
 }
 
 p {
@@ -53,7 +59,6 @@ p {
 #navBar h1 {
   width: 25%;
   font-size: 42px;
-  color: #E30613;
   text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
   font-family: futura;
   
@@ -66,9 +71,8 @@ p {
 }
 
 #about h2 {
-  margin-top: 700px;
+  margin-top: 100px;
   letter-spacing: 50px;
-  color: #E30613;
   text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
 }
 
@@ -78,5 +82,101 @@ p {
 }
 
 #work h2 {
+  margin-top: 50px;
+  letter-spacing: 50px;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
+}
+
+#contact h2 {
   margin-top: 200px;
+  letter-spacing: 50px;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
+}
+.cover {
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: auto;
+}
+
+#grid {
+  margin: 200px 5%;
+  display: grid;
+  grid-template-rows: 500px 500px 500px 500px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "ps psOne none none"
+  "logos logos logos logos"
+  "XDWeb XDWeb XDWebOne XDWebOne"
+  "XDWebTwo XDWebTwo XDWebThree XDWebThree";
+}
+
+#ps {
+  grid-area: ps;
+  background-image: url("../images/heartstoner.png");
+  background-size: cover;
+  background-position: absolute;
+  z-index: 2;
+
+}
+
+#psOne {
+  grid-area: psOne;
+  background-image: url("../images/gradient.png");
+  background-size: cover;
+  background-position: absolute;
+  z-index: 2;
+}
+
+#none {
+  grid-area: none;
+}
+
+#logos {
+  grid-area: logos;
+  background-image: url("../images/Hard-Cover-Book-01.png");
+  background-size: cover;
+  background-position: absolute;
+  z-index: 2;
+}
+
+#XDWeb {
+  grid-area: XDWeb;
+  background-image: url("../images/Web\ 1920\ –\ 6.png");
+  background-size: cover;
+  background-position: absolute;
+  z-index: 2;
+}
+
+#XDWebOne {
+  grid-area: XDWebOne;
+  background-image: url("../images/Web\ 1920\ –\ 7.png");
+  background-size: cover;
+  background-position: absolute;
+  z-index: 2;
+}
+
+#XDWebTwo {
+  grid-area: XDWebTwo;
+  background-image: url("../images/Web\ 1920\ –\ 8.png");
+  background-size: cover;
+  background-position: absolute;
+  z-index: 2;
+}
+
+#XDWebThree {
+  grid-area: XDWebThree;
+  background-image: url("../images/Web\ 1920\ –\ 10.png");
+  background-size: cover;
+  background-position: absolute;
+  z-index: 2;
+}
+
+.workGrid {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2px;
 }
