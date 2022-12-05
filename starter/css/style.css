@@ -9,11 +9,46 @@ body {
   line-height: 1.5;
 }
 
-img {
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.bg {
   opacity: 0.2;
   position: absolute;
-  style
-  
+  margin-top: 0px;
+}
+
+.bgTwo {
+  opacity: 0.2;
+  position: absolute;
+  margin-top: 1080px;
+}
+
+.bgThree {
+  opacity: 0.2;
+  position: absolute;
+  margin-top: 2160px;
+  height: 565px;
+  width: 100%;
+}
+
+.bgFour {
+  opacity: 0.2;
+  position: absolute;
+  margin-top: 2725px;
+}
+
+.me {
+  display: block;
+  width: 1024px;
+  height: 1024px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 784px;
+  border: 10px;
 }
 
 h1,
@@ -74,35 +109,36 @@ p {
   margin-top: 100px;
   letter-spacing: 50px;
   text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
+  margin-left: -1190px;
 }
 
 #about p {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 95px;
+  margin-right: 1200px;
+  margin-top: 10px;
 }
 
 #work h2 {
-  margin-top: 50px;
+  margin-top: 176px;
   letter-spacing: 50px;
   text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
+  margin-left: -1240px;
 }
 
 #contact h2 {
-  margin-top: 200px;
+  margin-top: 100px;
   letter-spacing: 50px;
   text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
 }
-.cover {
-  opacity: 0.2;
-  position: absolute;
-  left: 0;
-  top: 100px;
-  width: 100%;
-  height: auto;
+
+#resume h2 {
+  margin-top: 100px;
+  letter-spacing: 50px;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
 }
 
 #grid {
-  margin: 200px 5%;
+  margin: 10px 5%;
   display: grid;
   grid-template-rows: 500px 500px 500px 500px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -179,4 +215,42 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 2px;
+}
+
+#gridTwo {
+  margin: 10px 5%;
+  display: grid;
+  grid-template-rows: 300px 500px;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas: 
+  "pic pic info info"
+  "pic pic info info"
+}
+
+#pic {
+  grid-area: pic;
+  background-image: url("../images/IMG_0946.png");
+  background-size: cover;
+  background-position: absolute;
+  z-index: 2;
+  margin-left: -325px;
+}
+
+#info {
+  grid-area: info;
+}
+
+.infocontent h3 {
+  margin-top: 100px;
+  letter-spacing: 10px;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 42px;
+}
+
+.infocontent a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 24px;
 }
