@@ -8,6 +8,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-image: url(../images/elgraphicacover.png);
+  height: 1080px;
 }
 
 h1,
@@ -20,17 +21,12 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: futura;
+  font-weight: 100;
 }
 
 p {
   margin: 0;
-}
-img{
-  display: flex;
-  height: 500px;
-  width: 80%;
-  justify-content: center;
-  align-items: center;
 }
 
 #navigation {
@@ -63,13 +59,24 @@ img{
   
 }
 
-.hero-banner h2{
-  display: flex;
+.hero-banner h2 {
   width: 100%;
-  font-family: futura;
-  font-weight: 100;
   letter-spacing: 150px;
-  align-items: center;
-  justify-content: center;
   color: rgba(0, 0, 0, 0.7);
+}
+
+#about h2 {
+  margin-top: 700px;
+  letter-spacing: 50px;
+  color: #E30613;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
+}
+
+#about p {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#work h2 {
+  margin-top: 200px;
 }
