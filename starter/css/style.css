@@ -83,7 +83,7 @@ p {
   flex-direction: row;
 }
 
-#navigation p {
+#navigation a {
   margin: 50px;
   color: #E30613;
   text-shadow: -1px 1px rgba(0, 0, 0, 0.7);
@@ -233,7 +233,7 @@ p {
   background-size: cover;
   background-position: absolute;
   z-index: 2;
-  margin-left: -325px;
+  margin-left: -265px;
 }
 
 #info {
