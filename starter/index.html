@@ -14,17 +14,22 @@
   <img class ="bg"src="images/elgraphicacover.png" alt="elgraphica logo">
   <img class ="bgTwo"src="images/elgraphicacover.png" alt="elgraphica logo">
   <img class ="bgThree"src="images/elgraphicacover.png" alt="elgraphica logo">
-  <img class ="bgFour"src="images/elgraphicacover.png" alt="elgraphica logo">
-  <img class="me" src="images/me.png" alt="ilustration of me">
+  <div class="container">
+    <div class="card">
+      <div class="me">
+        
+      </div>
+    </div>
+  </div>
 </div>
   <header>
     <nav id="navBar">
     <h1>Lorand Ferenczi</h1>
     <div id="navigation">
-      <a>About Me</a>
-      <a>My Work</a>
-      <a>Contact Me</a>
-      <a>Resume</a>
+       <a href="#about">About Me</a>
+       <a href="#work">My Work</a>
+       <a href="#contact">Contact Me</a>
+      <a href="#resume">Resume</a>
     </div>
     </nav>
   </header>
@@ -38,7 +43,8 @@
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
+    <section>
+      <div class="page-section" id="about">
       <h2>ABOUT ME</h2>
       <p>I first started getting to know a bit more about graphic design in September 2021,
         when I set up a little takeaway business and designed my own logo, menu and flyers.
@@ -46,6 +52,7 @@
         I started my studies on Udemy and took a course on Adobe Illustrator.
         Shortly after I finished my first course, I subscribed to Skillshare and carried on learning new skills starting with Adobe Photoshop then onto InDesign, Premiere Pro, XD and After Effects.
         In one year, I made a lot of progress with these programs and learnt how to use most of them confidently. Now I am learning web development with EdX, and I am on my way to my new career.
+      </div>
         </p>
     </section>
 
@@ -53,14 +60,17 @@
     <section class="page-section" id="work">
       <h2>MY WORK</h2>
     <section id="grid">
-      <div id="ps" class="workGrid">
-        <div class="heading">Photoshop</div>
-      </div>
       <div id="none" class="workGrid">
         <div class="heading"></div>
       </div>
+      <div id="ps" class="workGrid">
+        <div class="heading">Photoshop</div>
+      </div>
       <div id="psOne" class="workGrid">
         <div class="heading">Photoshop</div>
+      </div>
+      <div id="ai" class="workGrid">
+        <div class="heading">Illustratior</div>
       </div>
       <div id="logos" class="workGrid">
         <div class="heading">Logos</div>
@@ -81,8 +91,8 @@
     </section>
 
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
+    <div class="page-section contact" id="contact">
+    <section>
       <h2>CONTACT ME</h2>
       <section id="gridTwo">
         <div id="pic" class="contactGrid">
@@ -92,15 +102,19 @@
         <div id="info" class="contactGrid">
           <div class="infocontent">
             <h3>THANK YOU FOR YOUR TIME</h3>
-            <a>https://www.instagram.com/elgraphica/</a>
-            <a>elferenczi@outlook.com</a>
-            <a>07983950808</a>
+       <ul>
+            <li><a href="https://www.instagram.com/elgraphica/">https://www.instagram.com/elgraphica/</a></li>
+            <li><a href="mailto:elferenczi@outlook.com">elferenczi@outlook.com</a></li>
+            <li><a>07983950808</a></li>
+       </ul>
           </div>
         </div>
       </section>
     </section>
+  </div>
     <section id="resume">
       <h2>RESUME</h2>
+      <iframe src="/starter/pdf/Lorand Ferenczi-CV_01.pdf" width="100%" height="500px"></iframe>
     </section>
   </main>
 </body>
