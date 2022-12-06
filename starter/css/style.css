@@ -66,6 +66,7 @@ p {
   width: 100%;
   align-items: center;
   justify-content: flex-end;
+  flex-direction: column;
 }
 
 #navBar {
