@@ -14,3 +14,7 @@ There is 4 sections to scroll through "About Me" "My Work" "Contact Me" and " Re
 # Screenshot
 
    ![Screenshot](images/Screenshot%202022-12-06%20at%2016.16.42.png)
+
+   ## Deployment
+
+   https://elgraphica.github.io/challengeTwo/#resume
